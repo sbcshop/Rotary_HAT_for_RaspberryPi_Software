@@ -11,42 +11,11 @@ This GitHub page offers a interfacing details and getting started guide of Rotar
 - 1.28" TFT display with a resolution of 240 x 240 pixels for visual interactions
 - Round display has capacitive touch
 
-<!--
+
 ### Interfacing Details
-- Pico W and Touch interfacing
-  
-  | Pico W | Touch Controller| Function |
-  |---|---|---|
-  |GP6 | SDA | Touch I2C  |
-  |GP7 | SCL  | Touch I2C  |
-  |GP4 | RESET  | Touch Reset  |
-  |GP7 | INT  | Touch Intrrupt  |
+<img src = "https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Software/blob/main/images/Rotary_HAT_Interfacing.png" width="693" height="468">
 
-  
-- Pico W and Round Display interfacing
-  
-  | Pico W | Display Pin | Function |
-  |---|---|---|
-  |GP10 | SCLK  | Clock pin of SPI interface for display|
-  |GP11 | DIN   | MOSI (Master OUT Slave IN) data pin of SPI interface|
-  |GP12 | DOUT   | MISO (Master OUT Slave OUT) data pin of SPI interface|
-  |GP8  | DC    | Data/Command pin of SPI interface|
-  |GP13 | CS    | Chip Select pin of SPI interface for display|
-  |GP9  | Reset | Display Reset Pin |
-  |GP14 | BL    | Display backlight Pin |
- 
-- RGBLed Interfacing with Pico W
-  | Pico W | RGB LED | Function |
-  |---|---|---|
-  | GP15 | DIN | WS2812 Data Pin|
-
-- Rotary Encoder Interfacing with Pico W
-  | RPi | Encoder |
-  |---|---|
-  | GPIO6 | OUT A | 
-  | GPIO13 | OUT B | 
-
-
+<!--
 ### 1. Setup Raspberry Pi
   
 ### 2. 
