@@ -37,7 +37,10 @@ This GitHub page offers a interfacing details and getting started guide of Rotar
 ### 2. Running Examples
 - This repo contains various [examples](https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Software/tree/main/example) to test onboard components of Rotary HAT and other interesting demo for experimental purpose which you can modify for applications.
 - To try examples simply download or git clone this repository into your Pi,
-``` ```
+
+  <img src = "https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Software/blob/main/images/rotary_git_clone.png" width="601" height="103">
+
+- Open anyone example into python IDE and run the code to see in action, modify build and share your creation.
 
 ## Resources
   * [Schematic](https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Hardware/blob/main/Design%20Data/SCH%20Rotary%20Encoder%20Hat.pdf)
