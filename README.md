@@ -15,19 +15,27 @@ This GitHub page offers a interfacing details and getting started guide of Rotar
 ### Interfacing Details
 <img src = "https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Software/blob/main/images/Rotary_HAT_Interfacing.png" width="693" height="468">
 
-<!--
+
 ### 1. Setup Raspberry Pi
+- You need to setup your Raspberry Pi, for this visit their [official site here](https://www.raspberrypi.com/documentation/computers/getting-started.html)
+- Once done now confiure Raspberry Pi to use with Rotary Encoder HAT
+- You have to enable I2C, SPI communication. To do this, run the command ```sudo raspi-config```. 
+
+  <img src = "https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Software/blob/main/images/sudo_raspi_config.png" width="295" height="70">
+
+- This opens the Raspberry Pi user interface (UI), where you can configure different Raspberry Pi settings.
   
-### 2. 
+  <img src = "https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Software/blob/main/images/raspi_config.png" width="450" height="259">
 
-### Example Codes
-   Save whatever example code file you want to try as **main.py** in **Pico W** as shown above [step 3](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main?tab=readme-ov-file#3-how-to-move-your-script-on-pico-w-of-rotart-pico-w), also add related lib files with the default name.
-   In [example](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples) folder you will find demo example script code to test onboard components of Rotary Pico W like 
-   - [Library](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/library): before running the code kindly save this library inside Pico W.
-   - [Display test, RGB test, SD Card test, and touch test, etc.](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/Demo%20Codes): All demo file
-   - [Image display test](https://github.com/sbcshop/Rotary_Pico-W_Powered_Software/tree/main/examples/image%20display): testing image display.
+- Enable SPI interface needed for display Hardware
 
--->
+  <img src = "https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Software/blob/main/images/SPI_enable.png" width="538" height="376">
+
+- In similar way enable I2C interface needed for Touch hardware
+
+  
+### 2. Running Examples
+
 
 ## Resources
   * [Schematic](https://github.com/sbcshop/Rotary_HAT_for_RaspberryPi_Hardware/blob/main/Design%20Data/SCH%20Rotary%20Encoder%20Hat.pdf)
